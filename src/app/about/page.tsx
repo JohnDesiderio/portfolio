@@ -14,7 +14,7 @@ export default function Home() {
           GA, but I moved to Statesboro, GA when I was nine. Growing 
           up, I played soccer and tried my hardest never to miss 
           an opportunity to kick a ball. Likewise, I enjoy watching 
-          soccer, but my sports interests aren't limited to soccer. 
+          soccer, but my sports interests are not limited to soccer. 
           I also love to watch college football and Formula 1. After 
           graduating high school, I attended the University of Georgia 
           and spent 4.5 years in Athens. I graduated with a Bachelor 

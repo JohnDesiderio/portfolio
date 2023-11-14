@@ -4,11 +4,12 @@ export interface IProjectComponent {
     name: string,
     details: Array<string>,
     link?: string,
+    key: string,
 }
 
 const ProjectComponent:React.FC<IProjectComponent> = (props: IProjectComponent) => {
     return (
-        <div className='w-screen mt-3'>
+        <div className='w-screen mt-3' key={props.key}>
             <div className='pl-24'>
                 <div className='text-xl'>
                     {props.link !== undefined ? 

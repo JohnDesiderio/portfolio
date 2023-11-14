@@ -19,6 +19,7 @@ const InternTwoComponent:React.FC<{}> = () => {
         position: position,
         time_served: time_served,
         details: details,
+        key: 'intern-two-key',
     }
     
     return (<ExperienceComponent {...props}/>)

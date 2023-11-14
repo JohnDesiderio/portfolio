@@ -18,6 +18,7 @@ const SurveyCaller:React.FC<{}> = () => {
         position: position,
         time_served: time_served,
         details: details,
+        key: 'survey-caller-key',
     }
     
     return (<ExperienceComponent {...props}/>)

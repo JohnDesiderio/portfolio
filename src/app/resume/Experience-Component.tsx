@@ -4,12 +4,13 @@ export interface IExperienceComponent {
     company: string,
     position: string,
     time_served: string,
-    details: Array<string>
+    details: Array<string>,
+    key: string,
 }
 
 const ExperienceComponent:React.FC<IExperienceComponent> = (props: IExperienceComponent) => {
     return (
-        <div className='mt-3'>
+        <div className='mt-3' key={props.key}>
             <div className='text-xl'><text className="font-bold">{props.position},</text> {props.company}</div>
             <div className='text-lg'>{props.time_served}</div>
             <ul className="list-disc ml-4">

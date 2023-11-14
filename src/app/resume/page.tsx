@@ -60,7 +60,7 @@ export default function Home() {
           </div>
           <h1 className="text-2xl font-bold pt-4">Awards</h1>   
           <div className="pt-1">Zell Miller Scholarship (Full Tuition), 2018 - 2022</div>
-          <div>Dean's List, Spring 2020 - Fall 2022</div>
+          <div>Dean&apos;s List, Spring 2020 - Fall 2022</div>
                    
           </div>
         </div>

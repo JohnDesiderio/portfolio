@@ -18,6 +18,7 @@ const SpotifyMixer:React.FC<{}> = () => {
         details: details,
         name: name,
         link: link,
+        key: 'spotify-mixer-key'
     }
     
     return (<ProjectComponent {...props}/>)
