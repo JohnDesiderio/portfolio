@@ -15,7 +15,7 @@ const RecommenderSystem:React.FC<{}> = () => {
         details: details,
         name: name,
         link: link,
-        key: 'recommender-key'
+        sh: 'recommender'
     }
     
     return (<ProjectComponent {...props}/>)

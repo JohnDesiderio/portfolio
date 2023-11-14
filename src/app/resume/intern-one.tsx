@@ -18,6 +18,7 @@ const InternOneComponent:React.FC<{}> = () => {
         position: position,
         time_served: time_served,
         details: details,
+        sh: 'intern-one',
     }
     
     return (<ExperienceComponent {...props}/>)

@@ -4,12 +4,12 @@ export interface IProjectComponent {
     name: string,
     details: Array<string>,
     link?: string,
-    key: string,
+    sh: string,
 }
 
 const ProjectComponent:React.FC<IProjectComponent> = (props: IProjectComponent) => {
     return (
-        <div className='w-screen mt-3' key={props.key}>
+        <div className='w-screen mt-3'>
             <div className='pl-24'>
                 <div className='text-xl'>
                     {props.link !== undefined ? 
@@ -18,8 +18,8 @@ const ProjectComponent:React.FC<IProjectComponent> = (props: IProjectComponent) 
                     }
                 </div>
                 <ul className="list-disc ml-4">
-                    {props.details.map(str =>
-                        <li>{str}</li>    
+                    {props.details.map((str, idx) =>
+                        <li key={`project-${props.sh}-${idx}`}>{str}</li>    
                     )}
                 </ul>
             </div>    
